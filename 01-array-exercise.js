@@ -24,8 +24,8 @@
 
     // Generate array with 10 random numbers
     const array = Array(10) // array size is 10
-		              .fill()
-		              .map(() => Math.floor(50 * Math.random()));
+		  .fill()
+		  .map(() => Math.floor(50 * Math.random()));
 
     getSecondLargest(arr);
 })()
